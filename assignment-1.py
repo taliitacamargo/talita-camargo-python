@@ -31,7 +31,8 @@ print(f"Here are your numbers multiplied: {firstNum} * {secNum} = {mult}")
 print("===========================")
 print("        RECEIPT            ")
 print("===========================")
-item="Item: Computer Org With MIPS"
+item="Computer Org With MIPS"
+print(f"Item:       {item}")
 price=92.99
 print(f"Price:      ${price}")
 quantity=3
