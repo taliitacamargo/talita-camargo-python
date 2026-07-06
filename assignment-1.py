@@ -1,5 +1,5 @@
 name= "Talita"
-age= "28"
+age= 28
 height= 5.2
 is_Student= True
 currentYear = 2026
@@ -16,15 +16,16 @@ height = input("What is your height? ")
 is_Student = input("Are you a student? ").lower() == "yes"
 firstNum = float(input("Please enter a number "))
 secNum = float(input("Please enter another number "))
-mult = firstNum * secNum
 
 age = currentYear - birthYear
+mult = firstNum * secNum
 
 
 
-print(f"Hi {name},you're approximately {age} years old and your height is {height}.")
+print(f"Hi {name}! you're approximately {age} years old.")
+print(f"Your height is {height}.")
 print(f"It's {is_Student} that you're a student.")
-print(f"Here are your numbers multiplied: {mult}")
+print(f"Here are your numbers multiplied: {firstNum} * {secNum} = {mult}")
 
 
 print("===========================")
